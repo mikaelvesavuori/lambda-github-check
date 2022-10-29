@@ -9,7 +9,17 @@
     "type": "git",
     "url": "git+https://github.com/mikaelvesavuori/lambda-github-check.git"
   },
-  "keywords": [],
+  "keywords": [
+    "aws",
+    "lambda",
+    "serverless",
+    "demo",
+    "example",
+    "github",
+    "checks",
+    "github-apps",
+    "github-checks"
+  ],
   "bugs": {
     "url": "https://github.com/mikaelvesavuori/lambda-github-check/issues"
   },
