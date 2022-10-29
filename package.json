@@ -24,12 +24,6 @@
     "url": "https://github.com/mikaelvesavuori/lambda-github-check/issues"
   },
   "homepage": "https://github.com/mikaelvesavuori/lambda-github-check#readme",
-  "files": [
-    "/lib",
-    "!/lib/**/*.map",
-    "!/tests",
-    "!/testdata"
-  ],
   "scripts": {
     "start": "sls offline",
     "deploy": "npx sls deploy",
