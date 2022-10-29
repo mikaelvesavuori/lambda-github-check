@@ -1,0 +1,40 @@
+{
+  "name": "lambda-github-check",
+  "description": "Ready-to-use GitHub check basis for AWS Lambda",
+  "version": "1.0.0",
+  "author": "Mikael Vesavuori",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikaelvesavuori/lambda-github-check.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/mikaelvesavuori/lambda-github-check/issues"
+  },
+  "homepage": "https://github.com/mikaelvesavuori/lambda-github-check#readme",
+  "files": [
+    "/lib",
+    "!/lib/**/*.map",
+    "!/tests",
+    "!/testdata"
+  ],
+  "scripts": {
+    "start": "sls offline",
+    "deploy": "npx sls deploy",
+    "teardown": "npx sls remove",
+    "package": "npx sls package",
+    "convert": "openssl pkcs8 -topk8 -inform PEM -outform PEM -in private-key.pem -out private-key-pkcs8.pem -nocrypt"
+  },
+  "devDependencies": {
+    "eslint": "8",
+    "eslint-config-prettier": "8",
+    "eslint-plugin-prettier": "4",
+    "prettier": "2",
+    "serverless": "3"
+  },
+  "dependencies": {
+    "@octokit/app": "13"
+  }
+}

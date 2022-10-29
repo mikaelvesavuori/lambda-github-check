@@ -1,0 +1,8 @@
+.env
+.dccache
+node_modules/
+.serverless/
+.webpack/
+build/
+*.pem
+*.tgz
