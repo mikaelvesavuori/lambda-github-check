@@ -88,6 +88,7 @@ For real production use you should of course not write out the `GITHUB_APP_PRIVA
 
 - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks
 - https://docs.github.com/en/developers/apps/guides/creating-ci-tests-with-the-checks-api
+- https://docs.github.com/en/rest/guides/using-the-rest-api-to-interact-with-checks?apiVersion=2022-11-28
 - https://docs.github.com/en/rest/commits/statuses?apiVersion=2022-11-28
 - https://spacejelly.dev/posts/how-to-create-a-custom-github-action-with-node-javascript/
 - https://octokit.github.io/rest.js/v18#checks-create
